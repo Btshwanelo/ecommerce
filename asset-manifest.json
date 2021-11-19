@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/ecommerce/static/css/main.31c5b48e.chunk.css",
-    "main.js": "/ecommerce/static/js/main.457f44ca.chunk.js",
-    "runtime-main.js": "/ecommerce/static/js/runtime-main.27b8104a.js",
-    "static/js/2.d5a67f6c.chunk.js": "/ecommerce/static/js/2.d5a67f6c.chunk.js",
-    "static/js/3.692c4356.chunk.js": "/ecommerce/static/js/3.692c4356.chunk.js",
+    "main.css": "/ecommerce/static/css/main.5c9aafc2.chunk.css",
+    "main.js": "/ecommerce/static/js/main.a5c48a08.chunk.js",
+    "runtime-main.js": "/ecommerce/static/js/runtime-main.a8dd26d0.js",
+    "static/js/2.c51b88fc.chunk.js": "/ecommerce/static/js/2.c51b88fc.chunk.js",
     "index.html": "/ecommerce/index.html",
-    "static/js/2.d5a67f6c.chunk.js.LICENSE.txt": "/ecommerce/static/js/2.d5a67f6c.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/ecommerce/static/media/logo.6ce24c58.svg"
+    "static/js/2.c51b88fc.chunk.js.LICENSE.txt": "/ecommerce/static/js/2.c51b88fc.chunk.js.LICENSE.txt",
+    "static/media/cap.520ef95e.jpg": "/ecommerce/static/media/cap.520ef95e.jpg",
+    "static/media/jean.c2d3ba18.jpg": "/ecommerce/static/media/jean.c2d3ba18.jpg",
+    "static/media/jogger.2f2e63f6.jpg": "/ecommerce/static/media/jogger.2f2e63f6.jpg",
+    "static/media/short.f36ddee2.jpg": "/ecommerce/static/media/short.f36ddee2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.27b8104a.js",
-    "static/js/2.d5a67f6c.chunk.js",
-    "static/css/main.31c5b48e.chunk.css",
-    "static/js/main.457f44ca.chunk.js"
+    "static/js/runtime-main.a8dd26d0.js",
+    "static/js/2.c51b88fc.chunk.js",
+    "static/css/main.5c9aafc2.chunk.css",
+    "static/js/main.a5c48a08.chunk.js"
   ]
 }
