@@ -18,24 +18,24 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.##
 ## User Manual
 
 To add product to cart click add to cart button
-![alt text](https://github.com/Btshwanelo/shopping-cart/blob/master/src/assets/images/addToCart.jpg)
+![alt text](https://github.com/Btshwanelo/ecommerce/blob/main/src/assets/images/addToCart.jpg)
 
 
 Click cart to view items in a cart
-![alt text](https://github.com/Btshwanelo/shopping-cart/blob/master/src/assets/images/cartItems.jpg)
+![alt text](https://github.com/Btshwanelo/ecommerce/blob/main/src/assets/images/cartItems.jpg)
 
 
 Modify quantity of the product
-![alt text](https://github.com/Btshwanelo/shopping-cart/blob/master/src/assets/images/quantity.jpg)
+![alt text](https://github.com/Btshwanelo/ecommerce/blob/main/src/assets/images/quantity.jpg)
 
 
 Click login
-![alt text](https://github.com/Btshwanelo/shopping-cart/blob/master/src/assets/images/login.jpg)
+![alt text](https://github.com/Btshwanelo/ecommerce/blob/main/src/assets/images/login.jpg)
 
 
 To register new user click SignUp
-![alt text](https://github.com/Btshwanelo/shopping-cart/blob/master/src/assets/images/signIn.jpg)
+![alt text](https://github.com/Btshwanelo/ecommerce/blob/main/src/assets/images/signIn.jpg)
 
 
 To check out click checkout button in cart
-![alt text](https://github.com/Btshwanelo/shopping-cart/blob/master/src/assets/images/checkOut.jpg)
+![alt text](https://github.com/Btshwanelo/ecommerce/blob/main/src/assets/images/checkOut.jpg)
