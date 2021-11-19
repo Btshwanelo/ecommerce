@@ -21,16 +21,12 @@ To add product to cart click add to cart button
 ![alt text](https://github.com/Btshwanelo/shopping-cart/blob/master/src/assets/images/addToCart.jpg)
 
 
-If the product is added to  cart you will get a popup notification
-![alt text](https://github.com/Btshwanelo/shopping-cart/blob/master/src/assets/images/addedToCartAlert.jpg)
-
-
 Click cart to view items in a cart
-![alt text](https://github.com/Btshwanelo/shopping-cart/blob/master/src/assets/images/numberOfItems.jpg)
+![alt text](https://github.com/Btshwanelo/shopping-cart/blob/master/src/assets/images/cartItems.jpg)
 
 
 Modify quantity of the product
-![alt text](https://github.com/Btshwanelo/shopping-cart/blob/master/src/assets/images/incrementQuantity.jpg)
+![alt text](https://github.com/Btshwanelo/shopping-cart/blob/master/src/assets/images/quantity.jpg)
 
 
 Click login
@@ -39,10 +35,6 @@ Click login
 
 To register new user click SignUp
 ![alt text](https://github.com/Btshwanelo/shopping-cart/blob/master/src/assets/images/signIn.jpg)
-
-
-fill all the fields and click singup button
-![alt text](https://github.com/Btshwanelo/shopping-cart/blob/master/src/assets/images/signUpForm.jpg)
 
 
 To check out click checkout button in cart
