@@ -34,7 +34,7 @@ Click login
 
 
 To register new user click SignUp
-![alt text](https://github.com/Btshwanelo/ecommerce/blob/main/src/assets/images/signIn.jpg)
+![alt text](https://github.com/Btshwanelo/ecommerce/blob/main/src/assets/images/register.jpg)
 
 
 To check out click checkout button in cart
