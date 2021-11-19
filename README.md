@@ -2,6 +2,13 @@
 
 Welcome to Fake Store. Fake Store is an online ecommerce site. it displays available products and users can add products, they can register and login and also purchase the products inside the cart. 
 
+## Structure
+login details :  email: 123@gmail.com, password: 123 
+
+Css structure is BEM methodology
+
+[alt text](https://github.com/Btshwanelo/ecommerce/blob/main/src/assets/images/structure.PNG)
+
 ## Prequsites
 
 Sass comiler - you need to have any sass compiler installed 
