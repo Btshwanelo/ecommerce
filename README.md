@@ -30,11 +30,11 @@ Modify quantity of the product
 
 
 Click login
-![alt text](https://github.com/Btshwanelo/ecommerce/blob/main/src/assets/images/login.jpg)
+![alt text](https://github.com/Btshwanelo/ecommerce/blob/main/src/assets/images/login.PNG)
 
 
 To register new user click SignUp
-![alt text](https://github.com/Btshwanelo/ecommerce/blob/main/src/assets/images/register.jpg)
+![alt text](https://github.com/Btshwanelo/ecommerce/blob/main/src/assets/images/register.PNG)
 
 
 To check out click checkout button in cart
