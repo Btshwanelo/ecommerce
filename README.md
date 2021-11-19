@@ -7,7 +7,7 @@ login details :  email: 123@gmail.com, password: 123
 
 Css structure is BEM methodology
 
-[alt text](https://github.com/Btshwanelo/ecommerce/blob/main/src/assets/images/structure.PNG)
+[structure](https://github.com/Btshwanelo/ecommerce/blob/main/src/assets/images/structure.PNG)
 
 ## Prequsites
 
