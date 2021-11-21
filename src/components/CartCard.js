@@ -48,9 +48,15 @@ const CartCard = ({ item, removeFromCart, increment, decrement }) => {
   );
 };
 
+CartCard.propTypes = {
+  item: PropTypes.object,
+  removeFromCart: PropTypes.func,
+  increment: PropTypes.func,
+  decrement: PropTypes.func,
+};
+
 const mapStateToProps = () => {
-  return {
-  };
+  return {};
 };
 
 const mapDispatchToProps = () => {
@@ -61,4 +67,4 @@ const mapDispatchToProps = () => {
   };
 };
 
-export default connect( mapStateToProps,mapDispatchToProps())(CartCard);
+export default connect(mapStateToProps, mapDispatchToProps())(CartCard);

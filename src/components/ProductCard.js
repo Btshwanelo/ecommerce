@@ -2,6 +2,7 @@ import React from "react";
 import Swal from "sweetalert2";
 import { addToCart } from "../State/actions";
 import { connect } from "react-redux";
+import PropTypes from "prop-types";
 
 const ProductCard = ({ item, addToCart, cart }) => {
   const handleAddToCart = (item) => {
@@ -36,6 +37,12 @@ const ProductCard = ({ item, addToCart, cart }) => {
       <button onClick={() => handleAddToCart(item)}>Add to cart</button>
     </div>
   );
+};
+
+ProductCard.propTypes = {
+  item: PropTypes.object,
+  addToCart: PropTypes.func,
+  cart: PropTypes.object,
 };
 
 const mapStateToProps = ({ products, cart }) => {

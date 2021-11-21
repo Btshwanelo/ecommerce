@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Swal from "sweetalert2";
 import CartContainer from "../components/CartContainer";
+import PropTypes from "prop-types";
 import {
   removeFromCart,
   increment,
@@ -55,6 +56,12 @@ const Cart = ({ cart, users, checkout }) => {
       <Footer />
     </div>
   );
+};
+
+Cart.propTypes = {
+  users: PropTypes.object,
+  cart: PropTypes.object,
+  checkout: PropTypes.func,
 };
 
 const mapStateToProps = (state) => {

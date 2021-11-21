@@ -1,8 +1,14 @@
 {
   "name": "ecommerce",
-"homepage": "http://Btshwanelo.github.io/ecommerce",
+  "homepage": "https://btshwanelo.github.io",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":"<rootDir>/tools/fileMock.js",
+      "\\.(css|less)$":"<rootDir>/tools/styleMock.js"
+    }
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
@@ -25,7 +31,8 @@
     "start": "react-scripts start",
     "build": "set \"GENERATE_SOURCEMAP=false\" &&  react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "test": "jest --watch"
   },
   "eslintConfig": {
     "extends": [

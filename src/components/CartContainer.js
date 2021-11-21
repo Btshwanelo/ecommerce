@@ -13,6 +13,9 @@ const CartContainer = ({ cart }) => {
   );
 };
 
+CartContainer.propTypes = {
+  cart: PropTypes.object,
+};
 
 const mapStateToProps = (state) => {
   return {

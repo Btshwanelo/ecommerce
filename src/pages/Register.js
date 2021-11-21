@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import Navbar from "../components/Navbar";
 import Swal from "sweetalert2";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 import { registerUser, cleanErrorMessage } from "../State/actions";
 
 const Register = ({ registerUser, users, cleanErrorMessage }) => {
@@ -68,6 +69,12 @@ const Register = ({ registerUser, users, cleanErrorMessage }) => {
       </div>
     </div>
   );
+};
+
+Register.propTypes = {
+  users: PropTypes.object,
+  registerUser: PropTypes.func,
+  cleanErrorMessage: PropTypes.func,
 };
 
 const mapStateToProps = (state) => {

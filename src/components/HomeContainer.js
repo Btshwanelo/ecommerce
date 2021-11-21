@@ -13,6 +13,10 @@ const HomeContainer = ({products}) => {
   );
 };
 
+HomeContainer.propTypes = {
+  products: PropTypes.array
+};
+
 const mapStateToProps = (state) => {
   return {
     products: state.products,

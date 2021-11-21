@@ -4,6 +4,7 @@ import Swal from "sweetalert2";
 import { Link, Redirect } from "react-router-dom";
 import { loginUser, cleanErrorMessage } from "../State/actions";
 import { connect } from "react-redux";
+import PropTypes from "prop-types";
 
 const Login = ({ loginUser, users, cleanErrorMessage }) => {
   const [form, setForm] = useState({
@@ -64,6 +65,12 @@ const Login = ({ loginUser, users, cleanErrorMessage }) => {
       </div>
     </div>
   );
+};
+
+Login.propTypes = {
+  users: PropTypes.object,
+  loginUser: PropTypes.func,
+  cleanErrorMessage: PropTypes.func,
 };
 
 const mapStateToProps = ({ users, cart }) => {
