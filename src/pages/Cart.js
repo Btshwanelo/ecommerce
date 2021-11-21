@@ -1,8 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
-import { RiDeleteBin3Line } from "react-icons/ri";
 import Swal from "sweetalert2";
 import CartContainer from "../components/CartContainer";
 import {

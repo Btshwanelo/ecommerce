@@ -74,9 +74,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-shadow: 1px 2px 3px 0px grey;
-          box-shadow: 1px 2px 3px 0px grey;
-  border-radius: 6px;
+  border-bottom: 1px solid grey;
 }
 
 .cart__card__delete {
@@ -475,10 +473,22 @@
 }
 
 .delete-btn {
-  display: inline-block;
+  width: 39px;
+  height: 33px;
+  background-color: #E1E8EE;
+  border-radius: 6px;
+  border: none;
   cursor: pointer;
-  width: 28px;
-  height: 27px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .plus-btn {

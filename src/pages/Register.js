@@ -45,7 +45,7 @@ const Register = ({ registerUser, users, cleanErrorMessage }) => {
       <div className="login">
         <div className="login__form">
           <h3>Sign In</h3>
-          <label for="username">Username</label>
+          <label>Username</label>
           <input
             type="email"
             placeholder="Email or Phone"
@@ -53,7 +53,7 @@ const Register = ({ registerUser, users, cleanErrorMessage }) => {
             onChange={(e) => setForm({ ...form, email: e.target.value })}
           />
 
-          <label for="password">Password</label>
+          <label>Password</label>
           <input
             type="password"
             placeholder="Password"

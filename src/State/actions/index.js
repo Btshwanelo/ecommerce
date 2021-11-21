@@ -1,4 +1,4 @@
-import { ADD_CART, REMOVE_CART, EDIT_CART, REGISTER, LOGIN, INCREMENT, DECREMENT, CHECKOUT, LOGOUT, CLEAN_ERROR_MESSAGE } from "./actionType";
+import { ADD_CART, REMOVE_CART, REGISTER, LOGIN, INCREMENT, DECREMENT, CHECKOUT, LOGOUT, CLEAN_ERROR_MESSAGE } from "./actionType";
 
 export const addToCart = (item) => {
   return (dispatch) => {

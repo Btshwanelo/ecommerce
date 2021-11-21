@@ -41,8 +41,7 @@
         padding: 20px 30px;
         height: 120px;
         display: flex;
-        box-shadow: 1px 2px 3px 0px grey;
-        border-radius: 6px;
+        border-bottom: 1px solid grey;
 
         &__delete {
             position: relative;
@@ -349,10 +348,16 @@
 }
 
 .delete-btn {
-    display: inline-block;
+    width: 39px;
+    height: 33px;
+    background-color: #E1E8EE;
+    border-radius: 6px;
+    border: none;
     cursor: pointer;
-    width: 28px;
-    height: 27px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .plus-btn {

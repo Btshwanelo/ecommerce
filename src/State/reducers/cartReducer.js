@@ -27,37 +27,35 @@ const cartReducer = (state = initialState, action) => {
     case CHECKOUT:
       return { ...state, items: [] };
     case INCREMENT:
+      const cartArr = state.items;
+      let index = state.items.findIndex(
+        (item) => item.id === action.payload.id
+      );
       let matchingProduct = state.items.find(
         (item) => item.id === action.payload.id
       );
-      let updated = {
+      cartArr.splice(index, 1, {
         ...matchingProduct,
         quantity: matchingProduct.quantity + 1,
         total: matchingProduct.total + matchingProduct.price,
-      };
-      return {
-        ...state,
-        items: [
-          updated,
-          ...state.items.filter((item) => item.id !== action.payload.id),
-        ],
-      };
+      });
+
+      return { ...state, items: cartArr };
     case DECREMENT:
-      let matchingItem = state.items.find(
+      const cartArrDecre = state.items;
+      let indexDecre = state.items.findIndex(
         (item) => item.id === action.payload.id
       );
-      let updatedItem = {
-        ...matchingItem,
-        quantity: matchingItem.quantity - 1,
-        total: matchingItem.total - matchingItem.price,
-      };
-      return {
-        ...state,
-        items: [
-          updatedItem,
-          ...state.items.filter((item) => item.id !== action.payload.id),
-        ],
-      };
+      let matchingProductDecre = state.items.find(
+        (item) => item.id === action.payload.id
+      );
+      cartArrDecre.splice(indexDecre, 1, {
+        ...matchingProductDecre,
+        quantity: matchingProductDecre.quantity - 1,
+        total: matchingProductDecre.total + matchingProductDecre.price,
+      });
+
+      return { ...state, items: cartArrDecre };
     default:
       return state;
   }

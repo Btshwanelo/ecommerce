@@ -6,7 +6,7 @@ const HomeContainer = ({products}) => {
   return (
     <>
       {products.map((item) => (
-        <ProductCard item={item} />
+        <ProductCard item={item} key={item.id} />
       ))}
     </>
   );

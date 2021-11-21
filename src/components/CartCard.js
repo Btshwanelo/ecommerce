@@ -1,15 +1,14 @@
 import React from "react";
-import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
-import { RiDeleteBin3Line } from "react-icons/ri";
+import { AiOutlineMinus, AiOutlinePlus, AiOutlineDelete } from "react-icons/ai";
 import { connect } from "react-redux";
 import { increment, decrement, removeFromCart } from "../State/actions";
 
 const CartCard = ({ item, removeFromCart, increment, decrement }) => {
   return (
-    <div className="cart__card" key={item.id}>
+    <div className="cart__card">
       <div className="cart__card__delete">
-        <span class="delete-btn" onClick={() => removeFromCart(item.id)}>
-          <RiDeleteBin3Line style={{ height: "25px", width: "25px" }} />
+        <span className="delete-btn" onClick={() => removeFromCart(item.id)}>
+          <AiOutlineDelete style={{ height: "25px", width: "25px" }} />
         </span>
       </div>
       <div className="cart__card__image">
@@ -24,16 +23,16 @@ const CartCard = ({ item, removeFromCart, increment, decrement }) => {
       </div>
       <div className="cart__card__qnty">
         <button
-          class="plus-btn"
+          className="plus-btn"
           type="button"
           name="button"
           onClick={() => increment(item)}
         >
           <AiOutlinePlus />
         </button>
-        <input type="text" name="name" value={item.quantity} />
+        <input type="text" name="name" placeholder={item.quantity} />
         <button
-          class="minus-btn"
+          className="minus-btn"
           type="button"
           name="button"
           onClick={() => {

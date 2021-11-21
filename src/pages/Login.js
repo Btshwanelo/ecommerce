@@ -41,16 +41,15 @@ const Login = ({ loginUser, users, cleanErrorMessage }) => {
       <div className="login">
         <div className="login__form">
           <h3>Login</h3>
-          <label for="username">Username</label>
+          <label>Username</label>
           <input
             type="email"
-            placeholder="Email or Phone"
+            placeholder="Email"
             value={form.email}
             onChange={(e) => setForm({ ...form, email: e.target.value })}
-            id="username"
           />
 
-          <label for="password">Password</label>
+          <label>Password</label>
           <input
             type="password"
             placeholder="Password"

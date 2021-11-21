@@ -1,10 +1,10 @@
-import vest from '../assets/images/vest.jpg';
-import jogger from '../assets/images/jogger.jpg';
-import Tshirt from '../assets/images/Tshirt.jpg';
-import short from '../assets/images/short.jpg';
-import jean from '../assets/images/jean.jpg';
-import cap from '../assets/images/cap.jpg';
-import hoodie from '../assets/images/hoodie.jpg';
+import vest from "../assets/images/vest.jpg";
+import jogger from "../assets/images/jogger.jpg";
+import Tshirt from "../assets/images/Tshirt.jpg";
+import short from "../assets/images/short.jpg";
+import jean from "../assets/images/jean.jpg";
+import cap from "../assets/images/cap.jpg";
+import hoodie from "../assets/images/hoodie.jpg";
 export const products = [
   {
     id: 1,
@@ -31,19 +31,19 @@ export const products = [
     image: jean,
   },
   {
-    id: 4,
+    id: 5,
     title: "Cap",
     price: 120,
     image: cap,
   },
   {
-    id: 5,
+    id: 6,
     title: "Hoodie",
     price: 300,
     image: hoodie,
   },
   {
-    id: 6,
+    id: 7,
     title: "Vest",
     price: 200,
     image: vest,

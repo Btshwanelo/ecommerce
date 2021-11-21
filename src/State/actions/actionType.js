@@ -8,5 +8,3 @@ export const CLEAN_ERROR_MESSAGE = "CLEAN_ERROR_MESSAGE";
 export const LOGOUT = "LOGOUT";
 export const REGISTER = "REGISTER"
 
-
-export const SEARCH = "SEARCH";

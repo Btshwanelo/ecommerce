@@ -27,7 +27,7 @@ const ProductCard = ({ item, addToCart, cart }) => {
     addToCart(item);
   };
   return (
-    <div className="item" key={item.id}>
+    <div className="item">
       <div className="item__image">
         <img src={item.image} alt={item.title} />
       </div>
