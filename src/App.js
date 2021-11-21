@@ -9,9 +9,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
+        <Route exact path="/" component={Home} />
         <Route exact path="/cart" component={Cart} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Register} />

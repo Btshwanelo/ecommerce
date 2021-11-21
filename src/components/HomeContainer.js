@@ -1,5 +1,6 @@
 import React from "react";
 import ProductCard from "./ProductCard";
+import PropTypes from 'prop-types';
 import { connect } from "react-redux";
 
 const HomeContainer = ({products}) => {

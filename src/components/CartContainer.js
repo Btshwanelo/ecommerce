@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import CartCard from "./CartCard";
+import PropTypes from 'prop-types';
 
 const CartContainer = ({ cart }) => {
   return (
@@ -11,6 +12,7 @@ const CartContainer = ({ cart }) => {
     </>
   );
 };
+
 
 const mapStateToProps = (state) => {
   return {

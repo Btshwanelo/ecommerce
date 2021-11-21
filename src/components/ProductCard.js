@@ -38,10 +38,10 @@ const ProductCard = ({ item, addToCart, cart }) => {
   );
 };
 
-const mapStateToProps = (state) => {
+const mapStateToProps = ({ products, cart }) => {
   return {
-    products: state.products,
-    cart: state.cart,
+    products,
+    cart,
   };
 };
 

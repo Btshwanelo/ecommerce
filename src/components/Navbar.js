@@ -2,6 +2,7 @@ import React from "react";
 import { FiShoppingCart } from "react-icons/fi";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 import { logOut } from "../State/actions";
 
 const Navbar = ({ cart, users, logOut }) => {
@@ -30,10 +31,15 @@ const Navbar = ({ cart, users, logOut }) => {
 
 const mapStateToProps = (state) => {
   return {
-    products: state.products,
     users: state.users,
     cart: state.cart,
   };
+};
+
+Navbar.propTypes = {
+  users: PropTypes.object,
+  cart: PropTypes.object,
+  logOut: PropTypes.func,
 };
 
 const mapDispatchToProps = () => {

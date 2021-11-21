@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineMinus, AiOutlinePlus, AiOutlineDelete } from "react-icons/ai";
 import { connect } from "react-redux";
+import PropTypes from "prop-types";
 import { increment, decrement, removeFromCart } from "../State/actions";
 
 const CartCard = ({ item, removeFromCart, increment, decrement }) => {
@@ -47,8 +48,9 @@ const CartCard = ({ item, removeFromCart, increment, decrement }) => {
   );
 };
 
-const mapStateToProps = (state) => {
-  return {};
+const mapStateToProps = () => {
+  return {
+  };
 };
 
 const mapDispatchToProps = () => {
@@ -59,4 +61,4 @@ const mapDispatchToProps = () => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps())(CartCard);
+export default connect( mapStateToProps,mapDispatchToProps())(CartCard);

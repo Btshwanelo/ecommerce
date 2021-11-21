@@ -19,13 +19,16 @@ const cartReducer = (state = initialState, action) => {
         total: action.payload.price,
       };
       return { ...state, items: [product, ...state.items] };
+
     case REMOVE_CART:
       return {
         ...state,
         items: state.items.filter((item) => item.id !== action.payload),
       };
+
     case CHECKOUT:
       return { ...state, items: [] };
+
     case INCREMENT:
       const cartArr = state.items;
       let index = state.items.findIndex(
@@ -56,6 +59,7 @@ const cartReducer = (state = initialState, action) => {
       });
 
       return { ...state, items: cartArrDecre };
+
     default:
       return state;
   }
