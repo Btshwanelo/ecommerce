@@ -64,10 +64,10 @@ Cart.propTypes = {
   checkout: PropTypes.func,
 };
 
-const mapStateToProps = (state) => {
+const mapStateToProps = ({cart, users}) => {
   return {
-    cart: state.cart,
-    users: state.users,
+    cart,
+    users,
   };
 };
 

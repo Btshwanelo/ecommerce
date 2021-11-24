@@ -17,9 +17,9 @@ CartContainer.propTypes = {
   cart: PropTypes.object,
 };
 
-const mapStateToProps = (state) => {
+const mapStateToProps = ({cart}) => {
   return {
-    cart: state.cart,
+    cart,
   };
 };
 export default connect(mapStateToProps)(CartContainer);

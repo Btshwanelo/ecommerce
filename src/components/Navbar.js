@@ -29,10 +29,10 @@ const Navbar = ({ cart, users, logOut }) => {
   );
 };
 
-const mapStateToProps = (state) => {
+const mapStateToProps = ({users, cart}) => {
   return {
-    users: state.users,
-    cart: state.cart,
+    users,
+    cart,
   };
 };
 

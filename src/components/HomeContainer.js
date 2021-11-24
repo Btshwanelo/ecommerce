@@ -17,9 +17,9 @@ HomeContainer.propTypes = {
   products: PropTypes.array
 };
 
-const mapStateToProps = (state) => {
+const mapStateToProps = ({products}) => {
   return {
-    products: state.products,
+    products,
   };
 };
 
